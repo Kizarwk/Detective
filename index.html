@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="background">
+	<div class="header">
+	<div class="container header-container">
+		<img class="logo" src="police-line.png" width="85" height="75">
+		<div class="navigation">
+		<a href="#" class="linkname">Detective</a>
+		<a href="head.html" class="link">Задания</a>
+		<a href="about.html" class="link">Обо мне</a>
+		<a href="contacts.html" class="link">Логические задачи</a>
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="background-main">
+	<div class="container main">
+    <div class="main-News" id="newsBlock">
+        <h3 class="subtitle">
+            Это сайт <b>Detective</b> <br>
+            Я учусь создавать сайты и это новый сайт. <br> 
+            Это мой первый сайт, который я хочу посвятить развитию кретическому мышлению в жизни, ведь это очень важно в современном мире!
+        </h3>
+		<button class="delete-link" id="deleteBtn">
+			Удалить
+		</button>
+		<img class="main-img" src="private-detective.png" width="300" alt="Detective">
+    </div>
+	</div>
+	</div>
+	</div>
+	<footer>
+
+	</footer>
+	<div class="footer">
+    &copy; 2025–2026 Site development. Release in 2026
+	</div>
+
+	<script>
+		const deleteBtn = document.getElementById('deleteBtn');
+		const newsBlock = document.getElementById('newsBlock');
+
+		deleteBtn.addEventListener('click', function() {
+			newsBlock.remove();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="background">
+	<div class="header">
+  	<img class="planet" 
+       src="Planet (1).png">
+  	<img class="stars" 
+       src="stars.png">
+	</div>
+	<a href="#">Главная</a>
+	<a href="#">Каталог</a>
+	<a href="#">Контакты</a>
+	<h1>Привет</h1> 
+	<h3>Меня зовут Kizarwk - Никита и это мой первый сайт</h3>
+	<a href="https://t.me/markprogrammer">Ссылка на мой telegram</a>
+	<h1>Список моих любимых игр</h1>
+	<ul>
+		<li>1. Slime Rancher</li>
+		<li>2. Planetary life </li>
+		<li>3. Liar's Bar</li>
+
+	<h1>Список моих любимых игр в которые я бы хотел поиграть но не могу</h1>
+	<ul>
+		<li>1. Red dead redemption 2</li>
+		<li>2. Slime Rancher 2</li>
+		<li>3. Metro 2033</li>
+	</ul>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+   font-family:'Courier New', Courier, monospace; /* основной шрифт */
+}
+
+body{
+   background-color: #6a5176; /* цвет фона */
+}
+
+.title{
+   font-family: 'Gill Sans', sans-serif; /* шрифт заголовка */
+   font-size: 50px; /* размер текста */
+   color: #3cbbad;  /* цвет текста */
+}
+
+.background{
+   background-image: url(stars.png);
+   background-position:top center;
+   background-repeat: repeat;
+   z-index: -1;
+   background-size: contain;
+   height: 110%;
+   padding-bottom: 120px;
+}
+
+.subtitle{
+   color: #3cbbad;  /* цвет текста */
+   font-size: 30px; /* размер текста */
+}
+
+a{
+   color: #0a2b50;  /* цвет текста */
+   font-size: 20px; /* размер текста */
+}
+
+img{
+   background-color: rgba(120, 42, 255, 0);
+   padding: 100px 75px;
+   margin-left: 100px;
+}
+
+a{
+  display: inline-block;
+  background-color: rgba(240, 240, 240, 0);
+  width: 125px;
+  text-align: center;
+  margin-right: 20px;
+  color: rgb(219, 141, 248);
+}
+.planet{
+  height: 200px;
+  position: absolute;
+  right: 250px;
+  z-index: 2;
+}
+.stars{
+  height: 300px;
+  position: absolute;
+  right: 200px;
+  top: -75px;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

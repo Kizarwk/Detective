@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+}
+.background {
+  background-color: #b4aeae;
+}
+.header{
+  background-color: #434242;
+  border-radius: 0px 0px 50px 50px;
+}
+.container{
+  margin: auto;
+  max-width: 1400px;
+}
+.header-container{
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  transition-duration: 300ms;
+  color: #dccfcf;
+  font-size: 30px;
+  text-decoration:  none;
+  margin-right: 40px;
+}
+.logo{
+  margin-left: 0px;
+}
+.linkname{
+  color: #cea8a8;
+  font-size: 40px;
+  text-decoration:  none;
+  margin-right: 525px;
+}
+.main-text{
+  align-content: flex-start;
+  margin-top: 120px;
+  font-size: 25px;
+  color: #474444;
+}
+.main{
+  align-content: flex-start;
+  justify-content: start;
+}
+.background-main{
+  background-color: #b4aeae;
+  min-height: 1000px;
+  border-radius: 0px 0px 0px 0px;
+  padding-bottom: 50px;
+}
+.main-News{
+  background-size: 80px 80px;
+  background-color: #d8c9c9;
+  border-radius: 75px 75px 75px 75px;
+  font-size: 40px;
+  color: #3c3838;
+  margin-top: 60px;
+  padding: 15px 40px 5px 40px;
+}
+.delete-link{
+  text-decoration: none;
+  color: #d56c6c;
+  font-size: 40px;
+  margin-left: 0px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition-duration: 300ms;
+  padding: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.delete-link:hover {
+  color: #ff5252;
+  font-size: 45px;
+}
+.link:hover{
+   transition-duration: 300ms;
+   font-size: 35px;
+   color: #2cccc7;
+}
+.footer{
+   background-color: #434242;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition-duration: 300ms;
+   color: #ede6c2;
+   height: 100px;
+   font-size: 24px;
+}
+.footer:hover{
+   transition-duration: 300ms;
+   color: #ccccc6;
+   font-size: 30px;
+}
+
+/* Стили для задач */
+.task-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.task {
+  background-color: #ece3e3;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-left: 5px solid #d56c6c;
+  box-shadow: 0 2px 80px rgba(0, 0, 0, 0.1);
+  transition-duration: 300ms;
+}
+
+.task:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.task-title {
+  color: #3c3838;
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.task-text {
+  color: #3c3838;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.task-answer {
+  color: #2cccc7;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: rgba(44, 204, 199, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+}
