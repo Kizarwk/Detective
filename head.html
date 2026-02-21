@@ -14,82 +14,58 @@
 		<div class="navigation">
 		<a href="#" class="linkname">Detective</a>
 		<a href="index.html" class="link">Главная</a>
-		<a href="head.html" class="link">Задания</a>
 		<a href="about.html" class="link">Обо мне</a>
+		<a href="contacts.html" class="link">Логические задачи</a>
 		</div>
 	</div>
 	</div>
 	</div>
 	<div class="background-main">
 	<div class="container main">
-     <div class="main-News">
-         <h3 class="subtitle">
-             <b>Задания на критическое мышление и логику</b>
-         </h3>
-         <div class="task-container">
-             <div class="task">
-                 <div class="task-header">
-                     <h4 class="task-title">Задание 1: Логический вывод</h4>
-                     <button class="task-complete-btn" onclick="toggleTask(this)">✓ Выполнено</button>
-                 </div>
-                 <p class="task-text">
-                     Все люди смертны.<br>
-                     Сократ - человек.<br>
-                     <b>Вывод:</b> Сократ смертен.
-                 </p>
-                 <p class="task-answer">Это пример дедуктивного логического вывода, где из двух посылок следует заключение.</p>
-             </div>
+    <div class="main-News">
+        <h3 class="subtitle">
+            <b>Задания на критическое мышление, ковка мышления</b>
+        </h3>
+        <div class="task-container">
+            <div class="task">
+                <h4 class="task-title">Задание 1: Логический вывод</h4>
+                <p class="task-text">
+                    Все люди смертны.<br>
+                    Сократ - человек.<br>
+                    <b>Вывод:</b> Сократ смертен.
+                </p>
+                <p class="task-answer">Это пример дедуктивного логического вывода, где из двух посылок следует заключение.</p>
+            </div>
 
-             <div class="task">
-                 <div class="task-header">
-                     <h4 class="task-title">Задание 2: Поиск ошибки в рассуждении</h4>
-                     <button class="task-complete-btn" onclick="toggleTask(this)">✓ Выполнено</button>
-                 </div>
-                 <p class="task-text">
-                     "Все кошки - животные.<br>
-                     Все собаки - животные.<br>
-                     Значит, все кошки - собаки."<br>
-                     <b>Найдите ошибку!</b>
-                 </p>
-                 <p class="task-answer">Ошибка: просто потому, что оба класса принадлежат к одному родительскому классу (животные), это не значит, что они равны друг другу.</p>
-             </div>
+            <div class="task">
+                <h4 class="task-title">Задание 2: Поиск ошибки в рассуждении</h4>
+                <p class="task-text">
+                    "Все кошки - животные.<br>
+                    Все собаки - животные.<br>
+                    Значит, все кошки - собаки."<br>
+                    <b>Найдите ошибку!</b>
+                </p>
+                <p class="task-answer">Ошибка: просто потому, что оба класса принадлежат к одному родительскому классу (животные), это не значит, что они равны друг другу.</p>
+            </div>
 
-             <div class="task">
-                 <div class="task-header">
-                     <h4 class="task-title">Задание 3: Анализ информации</h4>
-                     <button class="task-complete-btn" onclick="toggleTask(this)">✓ Выполнено</button>
-                 </div>
-                 <p class="task-text">
-                     В комнате 3 выключателя и 1 лампочка в соседней комнате (дверь закрыта).<br>
-                     Как определить, какой выключатель управляет лампочкой, если вы можете войти в комнату только один раз?
-                 </p>
-                 <p class="task-answer">Решение: Включите первый выключатель на несколько минут, затем выключите его. Включите второй выключатель и оставьте его включённым. Третий не трогайте. Когда вы войдёте в комнату: если лампа горит - второй выключатель, если лампа горячая - первый, если холодная - третий.</p>
-             </div>
+            <div class="task">
+                <h4 class="task-title">Задание 3: Анализ информации</h4>
+                <p class="task-text">
+                    В комнате 3 выключателя и 1 лампочка в соседней комнате (дверь закрыта).<br>
+                    Как определить, какой выключатель управляет лампочкой, если вы можете войти в комнату только один раз?
+                </p>
+                <p class="task-answer">Решение: Включите первый выключатель на несколько минут, затем выключите его. Включите второй выключатель и оставьте его включённым. Третий не трогайте. Когда вы войдёте в комнату: если лампа горит - второй выключатель, если лампа горячая - первый, если холодная - третий.</p>
+            </div>
 
-             <div class="task">
-                 <div class="task-header">
-                     <h4 class="task-title">Задание 4: Критическое мышление</h4>
-                     <button class="task-complete-btn" onclick="toggleTask(this)">✓ Выполнено</button>
-                 </div>
-                 <p class="task-text">
-                     "Все наши конкуренты используют эту технологию, поэтому она лучшая."<br>
-                     <b>Это логический аргумент?</b>
-                 </p>
-                 <p class="task-answer">Нет! Это ошибка "аргумент к большинству" (ad populum). Просто потому, что все используют что-то, это не делает это лучшим. Нужны факты и доказательства.</p>
-             </div>
-
-             <div class="task">
-                 <div class="task-header">
-                     <h4 class="task-title">Задание 5: Логическое мышление</h4>
-                     <button class="task-complete-btn" onclick="toggleTask(this)">✓ Выполнено</button>
-                 </div>
-                 <p class="task-text">
-                     У вас есть 3 контейнера: один содержит яблоки, один - апельсины, один - яблоки и апельсины вместе. Все контейнеры помечены неправильно.<br>
-                     <b>Как определить содержимое каждого контейнера, если вы можете вытащить только один фрукт из одного контейнера?</b>
-                 </p>
-                 <p class="task-answer">Возьмите фрукт из контейнера "Яблоки и апельсины". Если это яблоко - то это контейнер с яблоками. Тогда контейнер "Яблоки" содержит апельсины, а "Апельсины" содержит смесь. Логика работает одинаково если вытащится апельсин.</p>
-             </div>
-         </div>
+            <div class="task">
+                <h4 class="task-title">Задание 4: Критическое мышление</h4>
+                <p class="task-text">
+                    "Все наши конкуренты используют эту технологию, поэтому она лучшая."<br>
+                    <b>Это логический аргумент?</b>
+                </p>
+                <p class="task-answer">Нет! Это ошибка "аргумент к большинству" (ad populum). Просто потому, что все используют что-то, это не делает это лучшим. Нужны факты и доказательства.</p>
+            </div>
+        </div>
 	</div>
 	</div>
 	</div>
@@ -97,22 +73,6 @@
 
 	</footer>
 	<div class="footer">
-     &copy; 2025–2026 Site development. Release in 2026
+    &copy; 2025–2026 Site development. Release in 2026
 	</div>
-
-	<script>
-		function toggleTask(button) {
-			const task = button.closest('.task');
-			task.classList.toggle('completed');
-			
-			if (task.classList.contains('completed')) {
-				button.textContent = '✓ Выполнено';
-				button.style.color = '#2cccc7';
-			} else {
-				button.textContent = '✓ Выполнено';
-				button.style.color = '#d56c6c';
-			}
-		}
-	</script>
 </body>
-</html>
